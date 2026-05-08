@@ -374,6 +374,13 @@ h2 {
   margin-top: 0;
 }
 
+.project-year {
+  margin: 0.35rem 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
 .project-card a {
   color: var(--accent);
   text-decoration-thickness: 2px;
