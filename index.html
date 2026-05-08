@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Irfan Deny</title>
+    <meta
+      name="description"
+      content="Portofolio interaktif Irfan Deny, mahasiswa Informatika dari Bangkalan dengan fokus troubleshooting hardware dan jaringan sederhana."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home">Irfan Deny</a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">
+        Menu
+      </button>
+      <nav class="site-nav" id="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Skills</a>
+        <a href="#setup">Setup</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="home">
+        <div class="hero-copy">
+          <h1>
+            Halo, saya <span>Irfan Deny</span>
+            <small>
+              Codingers pemula yang akan selalu aktif belajar dan membangun
+              solusi teknologi yang bermanfaat.
+            </small>
+          </h1>
+          <p class="hero-text">
+            Saya berasal dari Bangkalan dan saat ini menempuh studi di Fakultas
+            Teknik, Program Studi Informatika. Fokus utama saya adalah analisis
+            masalah, troubleshooting perangkat keras, dan jaringan sederhana.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Lihat Proyek</a>
+            <a class="btn btn-ghost" href="#contact">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="profile-card" data-tilt>
+          <img src="images\irfan.jpeg" alt="Foto profil Irfan Deny" />
+          <div class="profile-meta">
+            <h2>Irfan Deny</h2>
+            <p>Informatika • Fakultas Teknik</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about reveal" id="about">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>Profil singkat dan latar belakang pendidikan saya.</p>
+        </div>
+        <div class="about-layout">
+          <article>
+            <p>
+              Nama saya <strong>Irfan Deny</strong>, lahir di
+              <strong>Bangkalan, /2005</strong>. Saya tercatat sebagai
+              mahasiswa dengan NIM <strong>202310370311377</strong> pada
+              Fakultas Teknik, Program Studi Informatika.
+            </p>
+            <p>
+              Saya beralamat di Dsn. paceleng, Ds. tagungguh, Kec. Tanjung
+              bumi, Kab. Bangkalan. Saya menjalani pembelajaran teknologi dengan
+              pendekatan praktik langsung di lapangan.
+            </p>
+          </article>
+          <article>
+            <p>
+              Saya memiliki minat kuat pada troubleshooting perangkat keras,
+              analisis gangguan, dan perbaikan masalah jaringan komputer
+              sederhana. Saya terbiasa bekerja teliti saat menemukan akar
+              masalah teknis.
+            </p>
+            <p>
+              Ke depan, saya ingin terus memperdalam kompetensi sistem dan
+              jaringan, sekaligus mengembangkan kemampuan membuat aplikasi yang
+              membantu kebutuhan operasional sehari-hari.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects reveal" id="projects">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>
+            Berikut beberapa proyek yang sudah saya kerjakan dan tersedia di
+            GitHub.
+          </p>
+        </div>
+
+        <div class="filter-row" role="tablist" aria-label="Filter proyek">
+          <button
+            class="filter-btn active"
+            data-filter="all"
+            role="tab"
+            aria-selected="true"
+          >
+            Semua
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="web"
+            role="tab"
+            aria-selected="false"
+          >
+            Sistem
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="dashboard"
+            role="tab"
+            aria-selected="false"
+          >
+            Jaringan
+          </button>
+          <button
+            class="filter-btn"
+            data-filter="landing"
+            role="tab"
+            aria-selected="false"
+          >
+            Dokumentasi
+          </button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="web">
+            <div class="project-media">
+              <img src="images/sentryhelmet1.jpeg" alt="Tampilan proyek Sentry Helmet IoT 1" loading="lazy" />
+              <img src="images/sentryhelmet2.jpeg" alt="Tampilan proyek Sentry Helmet IoT 2" loading="lazy" />
+              <img src="images/sentryhelmet3.jpeg" alt="Tampilan proyek Sentry Helmet IoT 3" loading="lazy" />
+            </div>
+            <h3>Sentry Helmet IoT (Sentrys)</h3>
+            <p>
+              Proyek IoT berbasis helm pintar untuk monitoring dan peningkatan
+              aspek keselamatan dengan integrasi data perangkat.
+            </p>
+            <a
+              href="https://github.com/irfandeny/sentry_helmet.git"
+              target="_blank"
+              rel="noreferrer"
+              >Lihat repository</a
+            >
+          </article>
+
+          <article class="project-card" data-category="landing">
+            <div class="project-media">
+              <img src="images/cake1.png" alt="Tampilan proyek Cake by Mommy 1" loading="lazy" />
+              <img src="images/cake2.png" alt="Tampilan proyek Cake by Mommy 2" loading="lazy" />
+              <img src="images/cake3.png" alt="Tampilan proyek Cake by Mommy 3" loading="lazy" />
+            </div>
+            <h3>Cake by Mommy</h3>
+            <p>
+              Katalog produk kue berbasis aplikasi untuk menampilkan informasi menu,
+              detail produk, dan tampilan yang ramah pengguna.
+            </p>
+            <a
+              href="https://github.com/keysyayst/KatalogKue"
+              target="_blank"
+              rel="noreferrer"
+              >Lihat repository</a
+            >
+          </article>
+
+          <article class="project-card" data-category="dashboard">
+            <div class="project-media project-media-single">
+              <img
+                src="images/SuratCiptaan_EC002026003738-1.jpg"
+                alt="Dokumen HKI proyek PetSaver"
+                loading="lazy"
+              />
+            </div>
+            <h3>PetSaver (Dapat HKI)</h3>
+            <p>
+              Sistem yang telah mendapatkan HKI, dikembangkan untuk menghadirkan
+              solusi digital yang fungsional dan berdampak.
+            </p>
+            <a
+              href="https://github.com/keysyayst/petsaver.git"
+              target="_blank"
+              rel="noreferrer"
+              >Lihat repository</a
+            >
+            <br />
+            <a
+              href="https://hakcipta.dgip.go.id/legal/c/YWY5NTYxNzcxNWExNGZhYzBhMGVkZWY2OGFjZmY4Mjc="
+              target="_blank"
+              rel="noreferrer"
+              >Lihat legal hak cipta</a
+            >
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-media project-media-two">
+              <img src="images/berkahlistrik1.png" alt="Tampilan proyek Berkah Listrik Mandiri 1" loading="lazy" />
+              <img src="images/berkahlistrik2.png" alt="Tampilan proyek Berkah Listrik Mandiri 2" loading="lazy" />
+            </div>
+            <h3>Berkah Listrik Mandiri</h3>
+            <p>
+              Website profil dan informasi layanan kelistrikan untuk mendukung
+              promosi usaha serta kemudahan akses informasi pelanggan.
+            </p>
+            <a
+              href="https://github.com/irfandeny/berkahlistrikmandiri.git"
+              target="_blank"
+              rel="noreferrer"
+              >Lihat repository</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="skills reveal" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Kemampuan teknis utama yang saya kuasai saat ini.</p>
+        </div>
+        <div class="skill-list">
+          <span>Troubleshooting Hardware</span>
+          <span>Perawatan Perangkat Komputer</span>
+          <span>Analisis Gangguan Teknis</span>
+          <span>Jaringan Komputer Dasar</span>
+          <span>Konfigurasi IP Dasar</span>
+          <span>Pemecahan Masalah</span>
+          <span>Microsoft Office</span>
+          <span>Dokumentasi Teknis</span>
+          <span>Kerja Tim</span>
+          <span>Komunikasi</span>
+        </div>
+      </section>
+
+      <section class="setup reveal" id="setup">
+        <div class="section-head">
+          <h2>Uses / Setup</h2>
+          <p>
+            Perangkat yang saya pakai untuk kuliah, praktikum, dan pengerjaan
+            tugas.
+          </p>
+        </div>
+
+        <div class="setup-tabs" role="tablist" aria-label="Tabs setup">
+          <button
+            class="setup-tab active"
+            data-tab="hardware"
+            role="tab"
+            aria-selected="true"
+          >
+            Hardware
+          </button>
+          <button
+            class="setup-tab"
+            data-tab="software"
+            role="tab"
+            aria-selected="false"
+          >
+            Software
+          </button>
+        </div>
+
+        <div class="setup-panel active" data-panel="hardware">
+          <ul class="setup-list">
+            <li>Laptop/PC untuk kebutuhan kuliah dan praktik teknis</li>
+            <li>Perangkat jaringan dasar: router, kabel LAN, dan konektor</li>
+            <li>Smartphone untuk komunikasi dan dokumentasi lapangan</li>
+            <li>Media penyimpanan untuk backup data tugas dan laporan</li>
+          </ul>
+        </div>
+
+        <div class="setup-panel" data-panel="software">
+          <ul class="setup-list">
+            <li>Windows untuk operasional harian</li>
+            <li>Visual Studio Code untuk belajar dan membuat aplikasi web</li>
+            <li>Browser Chrome untuk pencarian dan pengujian web</li>
+            <li>Aplikasi remote dan utility jaringan untuk troubleshooting</li>
+            <li>Microsoft Office untuk laporan dan dokumentasi kegiatan</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact reveal" id="contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>
+            Silakan hubungi saya untuk kolaborasi, diskusi, atau kebutuhan
+            teknis.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <p>Nama: Irfan Deny</p>
+            <p>NIM: 202310370311377</p>
+            <p>Program Studi: Informatika (Fakultas Teknik)</p>
+            <p>
+              Alamat: Dsn. apaceleng, Ds. tagungguh, Kec. Tanjung bumi, Kab.
+              Bangkalan
+            </p>
+            <p>
+              WhatsApp:
+              <a
+                href="https://wa.me/6287805587738"
+                target="_blank"
+                rel="noreferrer"
+                >087805587738</a
+              >
+            </p>
+            <p>Telepon: 087805587738</p>
+            <button class="btn btn-ghost copy-btn" data-copy="087805587738">
+              Salin Nomor HP
+            </button>
+          </div>
+
+          <form
+            class="contact-form"
+            action="mailto:irfandeny112@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              Nama
+              <input
+                type="text"
+                name="nama"
+                placeholder="Tulis nama Anda"
+                required
+              />
+            </label>
+            <label>
+              Kontak
+              <input
+                type="text"
+                name="kontak"
+                placeholder="Nomor HP atau email"
+                required
+              />
+            </label>
+            <label>
+              Pesan
+              <textarea
+                name="pesan"
+                rows="4"
+                placeholder="Tulis pesan atau kebutuhan Anda"
+                required
+              ></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Irfan Deny. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
